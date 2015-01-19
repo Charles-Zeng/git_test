@@ -6,6 +6,10 @@
 
 namespace interface
 {
+	struct Address
+	{
+		std::string address;
+	};
 	struct Person
 	{
 		std::string name;
