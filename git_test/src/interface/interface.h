@@ -10,11 +10,18 @@ namespace interface
 	{
 		std::string address;
 	};
+    
 	struct Person
 	{
 		std::string name;
 		std::string email;
 	};
+    
+    struct Family
+    {
+        std::string father;
+        std::string mother;
+    }
 };
 
 #endif // _INTERFACE_H_
